@@ -1,0 +1,13 @@
+[
+    {
+        "question": "How to print out something in python ?",
+        "answears": [
+            "printf()",
+            "cout>>",
+            "print()",
+            "echo"
+        ],
+        "right_answaer": "d"
+    },
+    {}
+]
