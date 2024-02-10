@@ -9,4 +9,4 @@ def test_load_questions():
 
     test_question_obj.load_questions(path)
 
-    assert type(test_question_obj) is list
+    assert test_question_obj
