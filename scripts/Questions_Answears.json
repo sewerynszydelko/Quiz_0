@@ -9,5 +9,94 @@
         ],
         "right_answaer": "d"
     },
-    {}
+    {
+        "question": "How to import libres ?",
+        "answears": [
+            "load ...",
+            "get ... as ..",
+            "from ... as ..",
+            "import ... "
+        ],
+        "right_answaer": "d"
+    },
+    {
+        "question": "How to print out something in python ?",
+        "answears": [
+            "printf()",
+            "cout>>",
+            "print()",
+            "echo"
+        ],
+        "right_answaer": "a"
+    },
+    {
+        "question": "How to print out something in python ?",
+        "answears": [
+            "printf()",
+            "cout>>",
+            "print()",
+            "echo"
+        ],
+        "right_answaer": "c"
+    },
+    {
+        "question": "How to print out something in python ?",
+        "answears": [
+            "printf()",
+            "cout>>",
+            "print()",
+            "echo"
+        ],
+        "right_answaer": "b"
+    },
+    {
+        "question": "How to print out something in python ?",
+        "answears": [
+            "printf()",
+            "cout>>",
+            "print()",
+            "echo"
+        ],
+        "right_answaer": "d"
+    },
+    {
+        "question": "How to print out something in python ?",
+        "answears": [
+            "printf()",
+            "cout>>",
+            "print()",
+            "echo"
+        ],
+        "right_answaer": "d"
+    },
+    {
+        "question": "How to print out something in python ?",
+        "answears": [
+            "printf()",
+            "cout>>",
+            "print()",
+            "echo"
+        ],
+        "right_answaer": "d"
+    },
+    {
+        "question": "How to print out something in python ?",
+        "answears": [
+            "printf()",
+            "cout>>",
+            "print()",
+            "echo"
+        ],
+        "right_answaer": "d"
+    },
+    {
+        "question": "How to print out something in python ?",
+        "answears": [
+            "printf()",
+            "cout>>",
+            "print()",
+            "echo"
+        ],
+        "right_answaer": "d"
+    }
 ]
