@@ -5,13 +5,13 @@ from string import ascii_uppercase
 
 class Questions:
 
-    def __init__(self) -> None:
+    def __init__(self,path) -> None:
+        self.path = path
         self.data = []
 
-    def load_questions(self, path):
-        with open(path, "r") as file:
-            data_json = json.load(file)
-            self.data = data_json
+    def load_questions(self):
+        with open(self.path, "r") as file:
+            self.data = json.load(file)
 
         return self.data
 
@@ -25,7 +25,7 @@ path = "C:\\Users\\5792\\Desktop\\Quiz_0\\scripts\\Questions_Answears.json"
 
 if __name__ == "__main__":
 
-    questions_1 = Questions()
-    first_ques = questions_1.load_questions(path)
+    questions_1 = Questions(path)
+    first_ques = questions_1.load_questions()
 
     questions_1.display_question_and_answaers()
