@@ -8,11 +8,14 @@ class Quiz():
         self.number_question = 0
         self.points = 0
 
-    def next_question(self,question_obj):
+    def next_question(self, question_obj):
         return question_obj.display_question_and_answaers(self.number_question)
 
     def get_user_input(self):
         return input("waht's your answear: ").lower()
+
+    def check_answear(self, user_input, question_obj, question_number):
+        return user_input == question_obj.get_right_answear(question_number)
 
     def about_quiz(self):
         print("Hello welcom in quiz game about python code !!\n")

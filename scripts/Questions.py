@@ -17,8 +17,17 @@ class Questions:
 
     def display_question_and_answaers(self, question_number=0) -> str:
         print(self.data[question_number]["question"])
-        for letter, answear in zip(ascii_uppercase, self.data[question_number]['answears']):
+        for letter, answear in zip(ascii_uppercase, self.data[question_number]["answears"]):
             print(letter+":", answear)
+
+    def get_answears(self, question_number=0):
+        return self.data[question_number]["answears"]
+
+    def get_right_answer(self, question_number=0):
+        return self.data[question_number]["right_answaer"]
+
+    def get_question(self, question_number=0):
+        return self.data[question_number]["question"]
 
 
 Path = "C:\\Users\\5792\\Desktop\\Quiz_0\\scripts\\Questions_Answears.json"
