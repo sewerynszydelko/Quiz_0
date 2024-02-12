@@ -1,4 +1,4 @@
-## Quiz Game File ##
+""" Quiz Game File """
 from questions import Questions
 
 
@@ -13,7 +13,7 @@ class Quiz():
 
     def get_user_input(self):
         return input("waht's your answear: ").lower()
-    
+
     def about_quiz(self):
         print("Hello welcom in quiz game about python code !!\n")
         print("I have 10 question for you\nyou can answaer from a - d")
@@ -21,10 +21,10 @@ class Quiz():
         input("If you ready press any key... ")
 
 
-path = "C:\\Users\\5792\\Desktop\\Quiz_0\\scripts\\Questions_Answears.json"
+PATH = "C:\\Users\\5792\\Desktop\\Quiz_0\\scripts\\Questions_Answears.json"
 
 quiz_game = Quiz()
-question_obj = Questions(path)
+question_obj = Questions(PATH)
 question_obj.load_questions()
 
 while True:
