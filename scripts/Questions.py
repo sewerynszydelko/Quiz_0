@@ -10,7 +10,7 @@ class Questions:
         self.data = []
 
     def load_questions(self):
-        with open(self.path, "r", encoding="uft-8") as file:
+        with open(self.path, "r", encoding="utf-8") as file:
             self.data = json.load(file)
 
         return self.data
@@ -31,6 +31,7 @@ class Questions:
 
     def get_lenght_questions(self):
         return len(self.data)
+
 
 Path = "C:\\Users\\5792\\Desktop\\Quiz_0\\scripts\\Questions_Answears.json"
 
