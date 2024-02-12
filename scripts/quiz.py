@@ -16,6 +16,12 @@ class Quiz():
 
     def check_answear(self, user_input, question_obj, question_number):
         return user_input == question_obj.get_right_answear(question_number)
+    
+    def add_point(self):
+        self.points += 1
+    
+    def show_points(self):
+        return self.points
 
     def about_quiz(self):
         print("Hello welcom in quiz game about python code !!\n")
