@@ -20,64 +20,64 @@
         "right_answaer": "d"
     },
     {
-        "question": "How to print out something in python 3 ?",
+        "question": "To virable we can only assain intigers ?",
         "answears": [
-            "printf()",
-            "cout>>",
-            "print()",
-            "echo"
-        ],
-        "right_answaer": "a"
-    },
-    {
-        "question": "How to print out something in python 4 ?",
-        "answears": [
-            "printf()",
-            "cout>>",
-            "print()",
-            "echo"
-        ],
-        "right_answaer": "c"
-    },
-    {
-        "question": "How to print out something in python 5 ?",
-        "answears": [
-            "printf()",
-            "cout>>",
-            "print()",
-            "echo"
+            "Yes",
+            "No",
+            "Only logic",
+            "depends of use"
         ],
         "right_answaer": "b"
     },
     {
-        "question": "How to print out something in python 6 ?",
+        "question": "Which operator has higher precedence in the following list ?",
         "answears": [
-            "printf()",
-            "cout>>",
-            "print()",
-            "echo"
+            "% (Modulus)",
+            "& (BitWise AND)",
+            "** (Exponent)",
+            "> (Comparison)"
+        ],
+        "right_answaer": "c"
+    },
+    {
+        "question": "What is the data type of print(type(0xFF)) ?",
+        "answears": [
+            "number",
+            "hexint",
+            "hex",
+            "int"
+        ],
+        "right_answaer": "c"
+    },
+    {
+        "question": "Which one is NOT a legal variable name ?",
+        "answears": [
+            "my_var",
+            "_myvar",
+            "Myvar",
+            "my-var"
         ],
         "right_answaer": "d"
     },
     {
-        "question": "How to print out something in python 7 ?",
+        "question": "What is the correct file extension for Python files ?",
         "answears": [
-            "printf()",
-            "cout>>",
-            "print()",
-            "echo"
+            ".py",
+            ".pt",
+            ".pyt",
+            ".pyth"
         ],
-        "right_answaer": "d"
+        "right_answaer": "a"
     },
     {
-        "question": "How to print out something in python 8 ?",
+        "question": "What is the correct syntax to output the type of a variable or object in Python ?",
         "answears": [
-            "printf()",
-            "cout>>",
-            "print()",
-            "echo"
+            "print(typeOf(x))",
+            "print(type(x))",
+            "print(typeof x)",
+            "print(typeof(x))"
         ],
-        "right_answaer": "d"
+        "right_answaer": "b"
     },
     {
         "question": "How to print out something in python 9 ?",
@@ -90,13 +90,13 @@
         "right_answaer": "d"
     },
     {
-        "question": "How to print out something in python 10 ?",
+        "question": "Which method can be used to remove any whitespace from both the beginning and the end of a string?",
         "answears": [
-            "printf()",
-            "cout>>",
-            "print()",
-            "echo"
+            "len()",
+            "strip()",
+            "trim()",
+            "ptrim()"
         ],
-        "right_answaer": "d"
+        "right_answaer": "b"
     }
 ]
