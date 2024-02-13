@@ -1,5 +1,5 @@
 """ Quiz Game File """
-from questions import Questions
+from scripts.questions import Questions
 
 
 class Quiz():
@@ -66,4 +66,5 @@ while True:
 
     break
 """
-quiz_game.play(quiz_game, question_obj)
+if __name__ == "__main__":
+    quiz_game.play(quiz_game, question_obj)
