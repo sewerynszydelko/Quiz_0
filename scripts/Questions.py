@@ -31,6 +31,9 @@ class Questions:
 
     def get_lenght_questions(self):
         return len(self.data)
+    
+    def get_question_data(self):
+        return self.data
 
 
 Path = "C:\\Users\\5792\\Desktop\\Quiz_0\\scripts\\Questions_Answears.json"
