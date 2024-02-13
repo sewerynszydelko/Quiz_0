@@ -24,7 +24,7 @@ class Quiz():
         return self.points
 
     def play(self, quiz, question_obj):
-        for i in range(len(question_obj.data)):
+        for i in range(len(question_obj.get_question_data())):
 
             quiz.next_question(question_obj)
             self.number_question = i + 1
