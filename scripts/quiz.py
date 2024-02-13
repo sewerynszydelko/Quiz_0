@@ -1,5 +1,5 @@
 """ Quiz Game File """
-from scripts.questions import Questions
+from questions import Questions
 
 
 class Quiz():
