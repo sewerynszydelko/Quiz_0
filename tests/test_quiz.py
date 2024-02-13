@@ -1,5 +1,4 @@
-from scripts.quiz import Quiz
-from scripts.questions import Questions
+from scripts.quiz import Quiz, Questions
 
 PATH = "C:\\Users\\5792\\Desktop\\Quiz_0\\scripts\\Questions_Answears.json"
 
@@ -16,15 +15,15 @@ def test_get_user_input():
 
 def test_check_answear():
     user_input = "d"
-    question_number = 0
+    question_number = 1
 
-    assert quiz_game.check_answear() == True
+    assert quiz_game.check_answear(user_input,question_obj,question_number) == True
 
 def test_add_point():
     quiz_game.add_point()
     assert quiz_game.points == 1
 
 def test_show_points():
-    assert quiz_game.show_points() == 0
-    quiz_game.add_point()
     assert quiz_game.show_points() == 1
+    quiz_game.add_point()
+    assert quiz_game.show_points() == 2
