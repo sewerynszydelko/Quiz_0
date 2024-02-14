@@ -1,6 +1,6 @@
 from scripts.quiz import Quiz, Questions
 
-PATH = "C:\\Users\\5792\\Desktop\\Quiz_0\\scripts\\Questions_Answears.json"
+PATH = "Path_to_Questions_Answears.json"
 
 quiz_game = Quiz()
 question_obj = Questions(PATH)
